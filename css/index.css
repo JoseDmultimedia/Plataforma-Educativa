@@ -1,0 +1,53 @@
+.o-form-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #7CE9F7;
+    padding-right: 15rem;
+    width: 50vw;
+    height: 100vh;
+}
+
+.o-text{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #02727A;
+}
+
+.o-text1{
+    font-weight: 600;
+    color: #02727A
+}
+
+.o-input{
+    width: 25vw;
+}
+
+.o-bt{
+    background-color: #02727A;
+    border: transparent;
+}
+
+.o-bt:hover{
+    background-color: #F794D0;
+}
+
+.o-title-main{
+    color: #02727A;
+    font-weight: 700;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
+
+.o-title-web{
+    margin-top: 0rem;
+    padding-top: 0rem;
+}
+
+.o-image-container{
+    background-image: url("../src/5836.jpg");
+    background-size: 55rem;
+    background-repeat: no-repeat;
+    padding-left: 35rem;
+}

@@ -1,0 +1,78 @@
+.o-navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 15vh;
+    background-color: #7CE9F7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.o-logo{
+    display:flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-left: 1.5rem;
+}
+
+.o-user{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding-right: 1.5rem;
+}
+
+.o-img{
+    width: 65px;
+    height: 65px;
+}
+
+.o-img2{
+    width: 45px;
+    height: 45px;
+}
+.o-img2:hover{
+    opacity: 0.5;
+}
+
+.o-title-dash{
+    font-weight: 600;
+    color: #02727A;
+    padding-left: 1.5rem;
+    padding-top: .7rem;
+}
+
+.o-user-name{
+    font-size: 20px;
+    color: #02727A;
+    padding-right: 1rem;
+    padding-top: .7rem;
+}
+
+.o-dash-conf{
+    display:flex;
+    margin-top: 2.5rem;
+    height: 75vh;
+}
+
+.o-conf-menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.o-tex-column{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.o-mision{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
