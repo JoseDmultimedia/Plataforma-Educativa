@@ -1,0 +1,298 @@
+.o-big-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+}
+.o-big-container1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 160vh;
+    width: 100%;
+}
+
+.o-big-container1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 160vh;
+    width: 100%;
+}
+
+.o-class-lesson{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.o-class-lesson1{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.o-activity{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(207, 207, 207);
+}
+.o-activity4{
+    display:flex;
+    justify-content: center;
+    margin-top: 8.5rem;
+    width: 100%;
+    height: 120%;
+    background-color: rgb(207, 207, 207);
+}
+
+.o-par-text1{
+    padding: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.o-title-act1{
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+
+}
+
+.o-bt1{
+    background-color: #02727A;
+    border: transparent;
+    margin-bottom: 2.5rem;
+    margin-right: 30.5rem;
+}
+
+.o-video{
+    margin-top: 0rem;
+    margin-bottom: 2.5rem;
+}
+
+.o-bt2{
+    background-color: #02727A;
+    border: transparent;
+    margin-bottom: .5rem;
+    margin-right: 30.5rem;
+}
+
+.o-bt3{
+    background-color: #02727A;
+    border: transparent;
+    margin-bottom: 2.5rem;
+}
+
+
+.o-par-text2{
+    padding: 1.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+.o-title-act2{
+    margin-top: 2.6rem;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+.o-act-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    margin-top: 1.5rem;
+    background-color: white;
+    width: 75%;
+    height: 80%;
+   
+}
+
+.o-act-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    margin-top: 1.5rem;
+    background-color: white;
+    width: 75%;
+    height: 120%;
+   
+}
+
+.o-img-act1{
+    width: 480px;
+    height: 200px;
+}
+
+.o-option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25vw;
+}
+
+.o-ok{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.o-bad{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:  center;
+}
+
+
+.o-box-container{
+    display:flex;
+
+}
+
+.o-box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(164, 255, 255);
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-sphere{
+    width: 300px;
+    height: 100px;
+    background-color:rgb(164, 255, 255) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-cylinder{
+    width: 300px;
+    height: 100px;
+    background-color:rgb(164, 255, 255) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-img1{
+    width: 70px;
+    height: 70px;
+}
+.o-img2{
+    width: 70px;
+    height: 70px;
+}
+.o-img3{
+    width: 70px;
+    height: 70px;
+}
+.o-img4{
+    width: 70px;
+    height: 70px;
+}
+
+.o-optioncon{
+    display: flex;
+    order: 4;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 10rem;
+}
+.o-order{
+    display:flex;
+    margin:1.5rem;
+}
+
+.o-orderbig{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.o-bta{
+    background-color: #9eacd9;
+    margin: .5rem;
+}
+
+.o-btb{
+    background-color: #9eacd9;
+    margin: .5rem;
+}
+.o-btc{
+    background-color: #98bbe5;
+    margin: .5rem;
+}
+.o-btd{
+    background-color: #98bbe5;
+    margin: .5rem;
+}
+.o-bte{
+    background-color: #f7ad90;
+    margin: .5rem;
+}
+.o-btf{
+    background-color: #f7ad90;
+    margin: .5rem;
+}
+.o-btg{
+    background-color: #cacaca;
+    margin: .5rem;
+}
+.o-bth{
+    background-color: #cacaca;
+    margin: .5rem;
+}
+.o-bti{
+    background-color: #a8ce95;
+    margin: .5rem;
+}
+.o-btj{
+    background-color: #a8ce95;
+    margin: .5rem;
+}
+.o-btk{
+    background-color: #71b345;
+    margin: .5rem;
+}
+.o-btl{
+    background-color: #71b345;
+    margin: .5rem;
+}
+
+.o-ok2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 208);
+    width: 400px;
+    height: 100px;
+}
+
+.o-btextra1{
+    background-color: #9ec0e5;
+}
+
+.o-btextra2{
+    background-color: #fed699;
+}

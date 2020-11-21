@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/actividad1.css">
+    <title>Plataforma Educativa</title>
+</head>
+<body>
+    <div class="o-navbar">
+        <div class="o-logo">
+            <img src="../src/libro.png" class="o-img"/>
+            <h1 class="o-title-dash">Plataforma Educativa</h1>
+        </div>
+        <div class="o-user">
+            <h3 class="o-user-name">Maria Alejandra</h3>
+            <img src="../src/imagen-de-usuario-con-fondo-negro.png" class="o-img2"/>
+        </div>
+    </div>
+
+
+    <div class="o-big-container1">
+
+        <div class="o-class-lesson1">
+            <h5 class="o-title-act2">Prueba Final</h5>
+
+            <p class="o-par-text2">
+                Las pirámides de Egipcio fueron construidas como criptas reales para los faraones
+                desde el año 2700 a.C, con bloques de piedra revestidos de caliza, eran a la vista,
+                grandes construcciones. Ahora elaboraremos nuestra propia pirámide
+                usando la matemáticas.</br></br>
+                En la punta de la pirámide se encuentra el peso total, ahora en cada bloque de color debes de
+                colocar el numero correspondiente.
+            </p>
+
+            <div class="o-orderbig">
+                <img src="../src/primer.jpg">
+                <div class="o-order">
+                    <div class="o-optioncon">
+                        <input type="button" class="btn btn-primary o-bta" value="94" onclick="a1()">
+                        <input type="button" class="btn btn-primary o-btb" value="80" onclick="badAnswer()">
+                        <input type="button" class="btn btn-primary o-btc" value="50" onclick="b1()">
+                        <input type="button" class="btn btn-primary o-btd" value="48" onclick="badAnswer()">
+                    </div>
+                    <div class="o-optioncon">
+                        <input type="button" class="btn btn-primary o-bte" value="33" onclick="c1()">
+                        <input type="button" class="btn btn-primary o-btf" value="30" onclick="badAnswer()">
+                        <input type="button" class="btn btn-primary o-btg" value="33" onclick="d1()">
+                        <input type="button" class="btn btn-primary o-bth" value="50" onclick>
+                    </div>
+                    <div class="o-optioncon">
+                        <input type="button" class="btn btn-primary o-bti" value="13" onclick="e1()">
+                        <input type="button" class="btn btn-primary o-btj" value="45" onclick="badAnswer()">
+                        <input type="button" class="btn btn-primary o-btk" value="13" onclick="f1()">
+                        <input type="button" class="btn btn-primary o-btl" value="50" onclick="badAnswer()">
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="o-ok2" style="margin-top: 1.5rem; margin-bottom: 1.5rem;" id="2">
+                <img src="../src/sonriente.png" width="50px" height="50px" id="e1" style="display: none;"/>
+                <img src="../src/sonriente.png" width="50px" height="50px" id="e2" style="display: none;"/>
+                <img src="../src/sonriente.png" width="50px" height="50px" id="e3" style="display: none;"/>
+                <img src="../src/sonriente.png" width="50px" height="50px" id="e4" style="display: none;"/>
+                <img src="../src/sonriente.png" width="50px" height="50px" id="e5" style="display: none;"/>
+                <img src="../src/sonriente.png" width="50px" height="50px" id="e6" style="display: none;"/>
+            </div>
+
+            <div class="o-bad" style="display: none;  margin-top:1.5rem" id="1">
+                <img src="../src/sigue intentando.jpg" style="width: 280px;
+                height: 70px;" />
+                 <a href="pruebafinal.html">
+                    <input type="button" class="btn btn-primary o-bt1" value="Sigue Intentando">
+                </a>
+            </div>
+          
+
+            <a href="dashboard.html">
+                <input type="button" class="btn btn-primary o-bt2" value="Ir a Home">
+            </a>
+        </div>
+
+        <div class="o-activity">
+            <div class="o-class-lesson1">
+    
+                <p class="o-par-text2">
+                    Para hacer bien tu pirámide, se busca que halla un equilibrio y para ello
+                    el bloque azul debe de pesar lo mismo que los bloques naranja juntos,
+                    se han pesado los bloque en una balanza y como se mira cada uno
+                    peso 52 (bloque color naranja) ¿Cual seria el peso total del bloque
+                    azul?
+                </p>
+
+                <img src="../src/segundo.JPG">
+
+                <div class="o-option" style="margin-top: 1.5rem;">
+                    <input type="button" class="btn btn-primary o-btextra1" value=" 200 " onclick="bad()">
+                    <input type="button" class="btn btn-primary o-btextra1" value=" 156 " onclick="good()">
+                    <input type="button" class="btn btn-primary o-btextra1" value=" 170 " onclick="bad()">
+                </div>
+
+                <div class="o-ok" style="display: none; margin-top:1.5rem" id="2extra" >
+                    <img src="../src/correcta.jpg" class="o-img-correcta" style="width: 280px;
+                    height: 70px;" />
+                </div>
+
+                <div class="o-bad" style="display: none;  margin-top:1.5rem" id="3extra">
+                    <img src="../src/sigue intentando.jpg" style="width: 280px;
+                    height: 70px;" />
+                    <a href="pruebafinal.html">
+                        <input type="button" class="btn btn-primary o-bt1" value="Sigue Intentando" id="6">
+                    </a>
+                </div>
+                
+
+                <p class="o-par-text2">
+                    Se observa que la balanza no esta equilibrada por que ambas partes deben
+                    de pesar 75 ¿Que bloque naranja se debe eliminar para que halla un
+                    equilibrio?
+                </p>
+
+                <img src="../src/tercero.JPG">
+
+                <div class="o-option" style="margin-top: 1.5rem;">
+                    <input type="button" class="btn btn-primary o-btextra2" value=" 12 " onclick="good2()">
+                    <input type="button" class="btn btn-primary o-btextra2" value=" 23 " onclick="bad2()">
+                    <input type="button" class="btn btn-primary o-btextra2" value=" 52 " onclick="bad2()">
+                </div>
+
+                <div class="o-ok" style="display: none; margin-top:1.5rem" id="4extra" >
+                    <img src="../src/correcta.jpg" class="o-img-correcta" style="width: 280px;
+                    height: 70px;" />
+                </div>
+
+                <div class="o-bad" style="display: none;  margin-top:1.5rem" id="5extra">
+                    <img src="../src/sigue intentando.jpg" style="width: 280px;
+                    height: 70px;" />
+                    <a href="pruebafinal.html">
+                        <input type="button" class="btn btn-primary o-bt1" value="Sigue Intentando" id="6" >
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="../js/funciones.js"></script>
+</body>
+</html>
