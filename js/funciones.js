@@ -19,26 +19,24 @@ function goodAnswer(){
   
 //----------------------------------------------------------------------------------------------------
 
-function badAnswer3(){
+function badAnswerx(){
     document.getElementById("1").style.display="inline";
     a = 1;
-    document.getElementById("btAct5").style.display="none";
-    document.getElementById("btAct6").style.display="none";
+    document.getElementById("algoFuera").style.display="none";
+    document.getElementById("btAct61").style.display="none";
     return a;  
-    
-
 }
 
-function goodAnswer3(){
+function goodAnswery(){
     document.getElementById("2").style.display="inline";
     a = 2;
-    document.getElementById("btAct5").style.display="none";
-    document.getElementById("btAct6").style.display="none";
+    document.getElementById("btAct51").style.display="none";
+    document.getElementById("btAct61").style.display="none";
     return a;
 }
   
 
-function badAnswer23(){
+function badAnswerz(){
     document.getElementById("4").style.display="inline";
     if(a==1){
         document.getElementById("6").style.display="inline";
@@ -52,7 +50,7 @@ function badAnswer23(){
     }
 }
 
-function goodAnswer23(){
+function goodAnswerk(){
     document.getElementById("3").style.display="inline";
     if(a==2){
         document.getElementById("5").style.display="inline";
